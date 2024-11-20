@@ -1,5 +1,5 @@
 # 🍕 ATELIER CROÛTE DORÉE
-Site vitrine de pizzeria
+Site vitrine d'une enseigne de pizzeria fictive.
 
 ## ▶️ DESCRIPTION
 **📄 Présentation**
