@@ -11,7 +11,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css">
 
       <!--=============== SWIPER CSS ===============-->
-      <link rel="stylesheet" href="">
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
@@ -96,7 +96,6 @@
                   <img src="assets/img/home-tomato.png" alt="image d'une tomate" class="home__ingredient home__tomato">
                </div>
             </div>
-
          </section>
 
          <!--==================== ABOUT ====================-->
@@ -123,7 +122,38 @@
 
          <!--==================== POPULAR ====================-->
          <section class="popular section" id="popular">
-            
+            <div class="popular__container container grid">
+               <div class="popular__data">
+                  <h2 class="section__title">Découvrez <br>Les commandes populaires</h2>
+
+                  <p class="popular__description">
+                     Choisissez les meilleures préparations et les saveurs les plus délicieuses. 
+                     Nous avons rassemblé quelques recettes populaires du monde entier 
+                     pour que vous puissiez choisir votre préférée.
+                  </p>
+               </div>
+
+               <div class="popular__swiper swiper">
+                  <img src="assets/img/popular-dish.png" alt="image d'une plateau en bois" class="popular__dish">
+
+                  <div class="swiper-wrapper">
+                     <article class="popular__card swiper-slide">
+                        <img src="assets/img/popular-1.png" alt="image d'un pizza margherita" class="popular__img">
+                        <h3 class="popular__title">Pizza margherita</h3>
+                     </article>
+
+                     <article class="popular__card swiper-slide">
+                        <img src="assets/img/popular-2.png" alt="image d'un pizza aux champignons" class="popular__img">
+                        <h3 class="popular__title">Pizza aux champignons</h3>
+                     </article>
+
+                     <article class="popular__card swiper-slide">
+                        <img src="assets/img/popular-3.png" alt="image d'un pizza pepperoni" class="popular__img">
+                        <h3 class="popular__title">Pizza pepperoni</h3>
+                     </article>
+                  </div>
+               </div>
+            </div>
          </section>
 
          <!--==================== RECIPE ====================-->
@@ -154,7 +184,7 @@
       <script src=""></script>
       
       <!--=============== SWIPER JS ===============-->
-      <script src=""></script>
+      <script src="assets/js/swiper-bundle.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
