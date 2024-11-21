@@ -21,3 +21,4 @@ Site vitrine d'une enseigne de pizzeria fictive.
 - **[Original Images](https://fr.freepik.com/)**
 
 ## 🔎 Accès au projet - ...
+![preview](https://github.com/user-attachments/assets/3f4efc7d-9f51-4089-89bb-b1ac34298d94)
