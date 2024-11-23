@@ -3,6 +3,10 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Découvrez les meilleures pizzas croustillantes et délicieuses chez Atelier Croûte Dorée. Commandez maintenant pour une expérience inoubliable.">
+      <meta name="keywords" content="pizzeria, pizza, Atelier Croûte Dorée, pizzas croustillantes, pizzas délicieuses">
+      <meta name="author" content="Jonathan Araldi">
+      <meta name="robots" content="index, follow">
 
       <!--=============== FAVICON ===============-->
       <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
@@ -22,7 +26,7 @@
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
          <nav class="nav containner">
-            <a href="#" class="nav__logo">
+            <a href="#" aria-label="Logo du site" class="nav__logo">
                <img src="assets/img/logo-pizza.svg" alt="logo du site">
                Atelier Croûte Dorée
             </a>
@@ -30,23 +34,23 @@
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li>
-                     <a href="#home" class="nav__link active-link">Accueil</a>
+                     <a href="#home" aria-label="Accueil" class="nav__link active-link">Accueil</a>
                   </li>
 
                   <li>
-                     <a href="#about" class="nav__link">À propos</a>
+                     <a href="#about" aria-label="À propos" class="nav__link">À propos</a>
                   </li>
 
                   <li>
-                     <a href="#popular" class="nav__link">Populaires</a>
+                     <a href="#popular" aria-label="Populaires" class="nav__link">Populaires</a>
                   </li>
 
                   <li>
-                     <a href="#products" class="nav__link">Produits</a>
+                     <a href="#products" aria-label="Produits" class="nav__link">Produits</a>
                   </li>
 
                   <li>
-                     <a href="#contact" class="nav__link">Contact</a>
+                     <a href="#contact" aria-label="Contact" class="nav__link">Contact</a>
                   </li>
                </ul>
 
@@ -77,7 +81,7 @@
                      mémorables, passez votre commande dès maintenant.
                   </p>
 
-                  <a href="#products" class="button">Commander maintenant</a>
+                  <a href="#products" aria-label="Commander maintenant" class="button">Commander maintenant</a>
 
                   <img src="assets/img/sticker-pizza.svg" alt="image d'une part de pizza" class="home__sticker-1">
                   <img src="assets/img/sticker-leaf.svg" alt="image d'une feuille" class="home__sticker-2">
@@ -88,8 +92,8 @@
                   <img src="assets/img/home-pizza.png" alt="image d'une pizza" class="home__pizza">
                   <img src="assets/img/home-board.png" alt="image d'une planche en bois à pizza" class="home__board">
 
-                  <img src="assets/img/home-leaf-1.png" alt="image d'une feuille vert" class="home__ingredient home__leaf-1">
-                  <img src="assets/img/home-leaf-2.png" alt="image d'une feuille vert" class="home__ingredient home__leaf-2">
+                  <img src="assets/img/home-leaf-1.png" alt="image d'une feuille vert 1" class="home__ingredient home__leaf-1">
+                  <img src="assets/img/home-leaf-2.png" alt="image d'une feuille vert 2" class="home__ingredient home__leaf-2">
                   <img src="assets/img/home-pepperoni.png" alt="image d'une tranche de pepperoni" class="home__ingredient home__pepperoni">
                   <img src="assets/img/home-mushroom.png" alt="image d'une champignon" class="home__ingredient home__mushroom">
                   <img src="assets/img/home-olive.png" alt="image d'une olive" class="home__ingredient home__olive">
@@ -111,7 +115,7 @@
                      lorsque nous avons ouvert notre première pizzeria à Paris, France.
                   </p>
 
-                  <a href="#popular" class="button">Les meilleures pizzas</a>
+                  <a href="#popular" aria-label="Les meilleures pizzas" class="button" aria-label="">Les meilleures pizzas</a>
 
                   <img src="assets/img/sticker-cheese.svg" alt="image d'un morceau de fromage" class="about__sticker">
                </div>
@@ -223,7 +227,7 @@
                   <h3 class="products__name">Pizza végétarien</h3>
                   <span class="products__price">15 €</span>
 
-                  <button class="products__button">
+                  <button class="products__button" aria-label="Ajouter Pizza végétarien au panier">
                      <i class="ri-shopping-bag-3-fill"></i>
                   </button>
                </article>
@@ -234,7 +238,7 @@
                   <h3 class="products__name">Pizza pepperoni</h3>
                   <span class="products__price">10 €</span>
 
-                  <button class="products__button">
+                  <button class="products__button" aria-label="Ajouter Pizza pepperoni au panier">
                      <i class="ri-shopping-bag-3-fill"></i>
                   </button>
                </article>
@@ -245,7 +249,7 @@
                   <h3 class="products__name">Pizza margherita</h3>
                   <span class="products__price">12 €</span>
 
-                  <button class="products__button">
+                  <button class="products__button" aria-label="Ajouter Pizza margherita au panier">
                      <i class="ri-shopping-bag-3-fill"></i>
                   </button>
                </article>
@@ -256,7 +260,7 @@
                   <h3 class="products__name">Pizza aux champignons</h3>
                   <span class="products__price">17 €</span>
 
-                  <button class="products__button">
+                  <button class="products__button" aria-label="Ajouter Pizza aux champignons au panier">
                      <i class="ri-shopping-bag-3-fill"></i>
                   </button>
                </article>
@@ -267,7 +271,7 @@
                   <h3 class="products__name">Pizza italien</h3>
                   <span class="products__price">10 €</span>
 
-                  <button class="products__button">
+                  <button class="products__button" aria-label="Ajouter Pizza italien au panier">
                      <i class="ri-shopping-bag-3-fill"></i>
                   </button>
                </article>
@@ -285,15 +289,15 @@
                         <h3 class="contact__title">Ecrivez-nous</h3>
 
                         <div class="contact__social">
-                           <a href="https://www.whatsapp.com/?lang=fr_FR" target="_blank" class="contact__social-link">
+                           <a href="https://www.whatsapp.com/?lang=fr_FR" aria-label="Logo whatsapp" target="_blank" class="contact__social-link">
                               <i class="ri-whatsapp-fill"></i>
                            </a>
 
-                           <a href="https://www.messenger.com/?locale=fr_FR" target="_blank" class="contact__social-link">
+                           <a href="https://www.messenger.com/?locale=fr_FR" aria-label="Logo messenger" target="_blank" class="contact__social-link">
                               <i class="ri-messenger-fill"></i>
                            </a>
 
-                           <a href="https://telegram.org/" target="_blank" class="contact__social-link">
+                           <a href="https://telegram.org/" aria-label="Logo telegram" target="_blank" class="contact__social-link">
                               <i class="ri-telegram-2-fill"></i>
                            </a>
                         </div>
@@ -316,7 +320,7 @@
                            75000 Paris, France
                         </address>
 
-                        <a href="https://maps.app.goo.gl/yCRXMqcuzazDq2aKA" target="_blank" class="contact__map">
+                        <a href="https://maps.app.goo.gl/yCRXMqcuzazDq2aKA" aria-label="Voir sur la carte" target="_blank" class="contact__map">
                            <i class="ri-map-pin-fill"></i>
                            <span>Voir sur la carte</span>
                         </a>
@@ -338,22 +342,22 @@
       <!--==================== FOOTER ====================-->
       <footer class="footer">
          <div class="footer__container container grid">
-            <a href="#" class="footer__logo">Atelier Croûte Dorée</a>
+            <a href="#" aria-label="Logo du site" class="footer__logo">Atelier Croûte Dorée</a>
 
             <div class="footer__content grid">
                <div>
                   <h3 class="footer__title">Social</h3>
 
                   <div class="footer__social">
-                     <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                     <a href="https://www.facebook.com/" aria-label="Visitez notre page Facebook" target="_blank" class="footer__social-link">
                         <i class="ri-facebook-circle-fill"></i>
                      </a>
 
-                     <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+                     <a href="https://www.instagram.com" aria-label="Visitez notre page Instagram" target="_blank" class="footer__social-link">
                         <i class="ri-instagram-fill"></i>
                      </a>
 
-                     <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                     <a href="https://twitter.com/" aria-label="Visitez notre page Twitter" target="_blank" class="footer__social-link">
                         <i class="ri-twitter-x-fill"></i>
                      </a>
                   </div>
@@ -373,8 +377,9 @@
                <div>
                   <h3 class="footer__title">S'abonner pour obtenir des réductions</h3>
 
-                  <form action="" class="footer__form">
-                     <input type="email" placeholder="Votre e-mail" class="footer__input">
+                  <form action="#" class="footer__form">
+                     <label for="email" class="visually-hidden">Adresse e-mail</label>
+                     <input type="email" id="email" placeholder="Votre e-mail" class="footer__input">
                      <button type="submit" class="footer__button button">S'abonner</button>
                   </form>
                </div>
@@ -382,22 +387,22 @@
          </div>
 
          <div class="footer__policy">
-            <a href="#" class="footer__link">Conditions et accords</a>
-            <a href="#" class="footer__link">Politique de confidentialité</a>
+            <a href="#" aria-label="Consultez nos conditions et accords" class="footer__link">Conditions et accords</a>
+            <a href="#" aria-label="Consultez notre politique de confidentialit" class="footer__link">Politique de confidentialité</a>
          </div>
 
          <span class="footer__copy">
-            &#169; Tous droits réservés par Atelier Croûte Dorée / Jonathan Araldi
+            &#169; Tous droits réservés par <br> Atelier Croûte Dorée / Jonathan Araldi
          </span>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-      <a href="#" class="scrollup" id="scroll-up">
+      <a href="#" aria-label="Retour en haut du site" class="scrollup" id="scroll-up">
          <i class="ri-arrow-up-line"></i>
       </a>
 
       <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
+      <script src="assets/js/scrollreveal.min.js"></script>
       
       <!--=============== SWIPER JS ===============-->
       <script src="assets/js/swiper-bundle.min.js"></script>
