@@ -20,5 +20,6 @@ Site vitrine d'une enseigne de pizzeria fictive.
 - **[ScrollReveal](https://scrollrevealjs.org/)**
 - **[Original Images](https://fr.freepik.com/)**
 
-## 🔎 Accès au projet - ...
+##
+![preview](https://github.com/user-attachments/assets/88d26278-7157-499c-bdda-b44640b82a8e)
 
