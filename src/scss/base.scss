@@ -1,0 +1,83 @@
+/*=============== VARIABLES ===============*/
+@import "variables.scss";
+
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat:wght@100..900&display=swap");
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+input,
+button,
+body {
+  font-family: $body-font;
+  font-size: $normal-font-size;
+}
+
+body {
+  background-color: $body-color;
+  color: $text-color;
+}
+
+input,
+button {
+  outline: none;
+  border: none;
+}
+
+h1, h2, h3, h4 {
+  color: $title-color;
+  font-weight: $font-regular;
+  font-family: $second-font;
+  line-height: 120%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+/*=============== REUSABLE SCSS CLASSES ===============*/
+.container {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding-block: 5rem 1rem;
+}
+.section__title {
+  text-align: center;
+  font-size: $bigger-font-size;
+  margin-bottom: 2rem;
+}
+
+.main {
+  overflow: hidden;
+}

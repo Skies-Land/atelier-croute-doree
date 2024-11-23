@@ -4,13 +4,15 @@ Site vitrine d'une enseigne de pizzeria fictive.
 ## ▶️ DESCRIPTION
 **📄 Présentation**
 - Cours suivie pour la réalisation de ce projet **[Bedimcode](https://www.youtube.com/@Bedimcode)**.
-- Développé avec **HTML**, **CSS** et **JavaScript**.
+- Développé d'en un premier temps avec **HTML**, **CSS** et **JavaScript** qui constitue la maquette.
+- Puis dans un second temps, adaptation avec **React**, **TypeScript** & **SASS**
 - Contient des animations lors du défilement.
 - Défilement fluide dans chaque section.
 - Développé d'abord avec la méthodologie Mobile First, puis pour les ordinateurs de bureau.
 - Compatible avec tous les appareils mobiles et doté d'une interface utilisateur belle et agréable.
 
 **🔗 Resources**
+Dans un premier temps :
 - **[CDN Icons - *"Remixicon"*](https://cdnjs.com/libraries/remixicon)**
 - **[Icons](https://remixicon.com/)**
 - **[Google Fonts - *"Carter One"*](https://fonts.google.com/specimen/Carter+One?query=Carter)**
@@ -19,6 +21,8 @@ Site vitrine d'une enseigne de pizzeria fictive.
 - **[Swiperjs](https://swiperjs.com/get-started)**
 - **[ScrollReveal](https://scrollrevealjs.org/)**
 - **[Original Images](https://fr.freepik.com/)**
+Dans un second temps :
+- **[vite.js](https://vite.dev/)**
 
 ##
 ![preview](https://github.com/user-attachments/assets/88d26278-7157-499c-bdda-b44640b82a8e)

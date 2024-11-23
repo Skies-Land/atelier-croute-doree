@@ -1,0 +1,12 @@
+/*=============== BASE ===============*/
+@import "./scss/base.scss";
+
+/*=============== PAGE SECTIONS ===============*/
+@import "./components/pageSections/header/header.scss";
+@import "./components/pageSections/home/home.scss";
+@import "./components/pageSections/about/about.scss";
+@import "./components/pageSections/popular/popular.scss";
+@import "./components/pageSections/recipe/recipe.scss";
+@import "./components/pageSections/products/products.scss";
+@import "./components/pageSections/contact/contact.scss";
+@import "./components/pageSections/footer/footer.scss";
