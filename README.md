@@ -4,7 +4,7 @@ Site vitrine d'une enseigne de pizzeria fictive.
 ## ▶️ DESCRIPTION
 **📄 Présentation**
 - Cours suivie pour la réalisation de ce projet **[Bedimcode](https://www.youtube.com/@Bedimcode)**.
-- Développé d'en un premier temps avec **HTML**, **CSS** et **JavaScript** qui constitue la maquette.
+- Développé dans un premier temps avec **HTML**, **CSS** et **JavaScript** qui constitue ma maquette.
 - Puis dans un second temps, adaptation avec **React**, **TypeScript** & **SASS**
 - Contient des animations lors du défilement.
 - Défilement fluide dans chaque section.
@@ -12,6 +12,7 @@ Site vitrine d'une enseigne de pizzeria fictive.
 - Compatible avec tous les appareils mobiles et doté d'une interface utilisateur belle et agréable.
 
 **🔗 Resources**
+#####
 Dans un premier temps :
 - **[CDN Icons - *"Remixicon"*](https://cdnjs.com/libraries/remixicon)**
 - **[Icons](https://remixicon.com/)**
@@ -21,8 +22,12 @@ Dans un premier temps :
 - **[Swiperjs](https://swiperjs.com/get-started)**
 - **[ScrollReveal](https://scrollrevealjs.org/)**
 - **[Original Images](https://fr.freepik.com/)**
+#####
 Dans un second temps :
-- **[vite.js](https://vite.dev/)**
+- **[Vite.js](https://vite.dev/)**
+- **[SASS](https://sass-lang.com/)**
+- **[React-router](https://reactrouter.com/)**
+- **[Remixicon - *utilisation avec React*](https://github.com/Remix-Design/RemixIcon?tab=readme-ov-file#react)**
 
 ##
 ![preview](https://github.com/user-attachments/assets/88d26278-7157-499c-bdda-b44640b82a8e)

@@ -71,13 +71,35 @@ img {
 
 .section {
   padding-block: 5rem 1rem;
-}
-.section__title {
-  text-align: center;
-  font-size: $bigger-font-size;
-  margin-bottom: 2rem;
+  &__title {
+    text-align: center;
+    font-size: $bigger-font-size;
+    margin-bottom: 2rem;
+  }
 }
 
 .main {
   overflow: hidden;
+}
+
+/*=============== MEDIA QUERIES ===============*/
+/* For small devices */
+@media screen and (max_width: 320px) {
+  .container {
+    margin-inline: 1rem;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1150px) {
+  .container {
+    margin-inline: auto;
+  }
+
+  .section {
+    padding-block: 7rem 2rem;
+    &__title {
+      margin-bottom: 4rem;
+    }
+  }
 }
