@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useMemo } from "react";
 
 // TYPES
-import { ActiveLinkProps } from "../../../types/ActiveLink";
+import { ActiveLinkProps } from "../../../types/ActiveLinkType";
 
 export const ActiveLink = ({ to, children }: ActiveLinkProps) => {
     const routeHref = useLocation();

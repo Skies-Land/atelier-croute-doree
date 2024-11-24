@@ -1,2 +1,170 @@
 /*=============== VARIABLES ===============*/
 @import "../../../scss/variables.scss";
+
+/*=============== HOME ===============*/
+.home__container {
+    padding-block: 2rem 3rem;
+    row-gap: 7rem;
+}
+
+.home__data {
+    position: relative;
+    text-align: center;
+}
+
+.home__title {
+    font-size: $biggest-font-size;
+}
+
+.home__description {
+    margin-block: 1rem 2rem;
+}
+
+.home__sticker-1,
+.home__sticker-2 {
+    width: 40px;
+    position: absolute;
+    opacity: .7;
+}
+
+.home__sticker-1 {
+    right: .75rem;
+    bottom: 2rem;
+    transform: rotate(30deg);
+}
+
+.home__sticker-2 {
+    left: 2.5rem;
+    bottom: -4.5rem;
+}
+
+.home__images {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    justify-self: center;
+}
+
+.home__ingredient {
+    width: 60px;
+    filter: $shadow-small-img;
+    position: absolute;
+    z-index: 2;
+}
+
+.home__board,
+.home__pizza {
+    filter: $shadow-small-img;
+}
+
+.home__pizza {
+    width: 300px;
+    z-index: 2;
+}
+
+.home__board {
+    width: 300px;
+    position: absolute;
+    bottom: -.5rem;
+    left: -.15rem;
+}
+
+.home__leaf-1 {
+    top: -1rem;
+}
+
+.home__pepperoni {
+    right: -.5rem;
+    top: 2rem;
+}
+
+.home__mushroom {
+    right: -.5rem;
+    bottom: 2rem;
+}
+
+.home__olive {
+    bottom: -1rem;
+}
+
+.home__leaf-2 {
+    left: -.5rem;
+    bottom: 2rem;
+}
+
+.home__tomato {
+    left: -.5rem;
+    top: 2rem;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (min-width: 576px) {
+    .home__container {
+        grid-template-columns: 380px;
+        justify-content: center;
+    }
+}
+
+/* For large devices */
+@media screen and (min-width: 1150px) {
+    .home__container {
+        grid-template-columns: 515px 555px;
+        column-gap: 3rem;
+        align-items: start;
+        padding-block: 10rem 4rem;
+    }
+    .home__data {
+        text-align: initial;
+        margin-top: 2rem;
+    }
+    .home__description {
+        margin-bottom: 3.5rem;
+        padding-right: 6rem;
+    }
+    .home__sticker-1,
+    .home__sticker-2 {
+        width: 50px;
+    }
+    .home__sticker-1 {
+        right: 3rem;
+        top: 1rem;
+        bottom: 0;
+    }
+    .home__sticker-2 {
+        left: 16rem;
+        bottom: 3rem;
+    }
+    .home__board,
+    .home__pizza {
+        width: 520px;
+    }
+    .home__board {
+        bottom: -1rem;
+    }
+    .home__ingredient {
+        width: 100px;
+    }
+    .home__leaf-1 {
+        top: -2rem;
+    }
+    .home__pepperoni {
+        right: -1rem;
+        top: 3.5rem;
+    }
+    .home__mushroom {
+        right: -1rem;
+        bottom: 3.5rem;
+    }
+    .home__olive {
+        bottom: -2rem;
+    }
+    .home__leaf-2 {
+        left: -1rem;
+        bottom: 3.5rem;
+    }
+    .home__tomato {
+        left: -1rem;
+        top: 3.5rem;
+    }
+}
