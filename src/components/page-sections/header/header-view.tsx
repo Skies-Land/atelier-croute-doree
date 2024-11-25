@@ -7,8 +7,8 @@ import logoPizza from "../../../medias/svg/logo-pizza.svg";
 // ICONS
 import { RiApps2AddFill, RiCloseLine } from "react-icons/ri";
 
-// COMPONENT
-import { Image } from "../../elements/image/Image";
+// COMPONENTS
+import { Image } from "../../elements/image/image";
 import { NavList } from "./modules/nav-list";
 
 // HOOK

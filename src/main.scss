@@ -2,14 +2,14 @@
 @import "./scss/base.scss";
 
 /*=============== PAGE SECTIONS ===============*/
-@import "./components/pageSections/header/header.scss";
-@import "./components/pageSections/home/home.scss";
-@import "./components/pageSections/about/about.scss";
-@import "./components/pageSections/popular/popular.scss";
-@import "./components/pageSections/recipe/recipe.scss";
-@import "./components/pageSections/products/products.scss";
-@import "./components/pageSections/contact/contact.scss";
-@import "./components/pageSections/footer/footer.scss";
+@import "./components/page-sections/header/header.scss";
+@import "./components/page-sections/home/home.scss";
+@import "./components/page-sections/about/about.scss";
+@import "./components/page-sections/popular/popular.scss";
+@import "./components/page-sections/recipe/recipe.scss";
+@import "./components/page-sections/products/products.scss";
+@import "./components/page-sections/contact/contact.scss";
+@import "./components/page-sections/footer/footer.scss";
 
 /*=============== COMPONENTS ===============*/
 @import "./components/elements/button/button.scss";

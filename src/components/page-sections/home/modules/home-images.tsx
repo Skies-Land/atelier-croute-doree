@@ -1,8 +1,8 @@
 // DATA
-import { ingredientsHome } from "../../../../medias/Ingredients";
+import { ingredientsHome } from "../../../../medias/ingredients";
 
 // COMPONENT
-import { Image } from "../../../elements/image/Image";
+import { Image } from "../../../elements/image/image";
 
 // IMAGES
 import Pizza from "../../../../medias/img/home-pizza.png";

@@ -1,0 +1,71 @@
+/*=============== VARIABLES ===============*/
+@import "../../../scss/variables.scss";
+
+/*=============== RECIPE ===============*/
+.recipe {
+    background-color: $container-color;
+    .recipe__container {
+        row-gap: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    .recipe__image {
+        width: 60px;
+        filter: $shadow-small-img;
+    }
+    
+    .recipe__name {
+        font-size: $normal-font-size;
+        margin-bottom: .25rem;
+    }
+    
+    .recipe__description {
+        font-size: $small-font-size;
+    }
+    
+    .recipe__ingredient {
+        display: flex;
+        align-items: center;
+        column-gap: .75rem;
+    }
+    
+    .recipe__img {
+        width: 320px;
+        justify-self: center;
+        filter: $shadow-big-img;
+    }
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (min-width: 576px) {
+    .recipe__container {
+        grid-template-columns: 380px;
+        justify-content: center;
+    }
+}
+
+/* For large devices */
+@media screen and (min-width: 1150px) {
+    .recipe__container {
+        grid-template-columns: 360px 550px;
+        align-items: center;
+        column-gap: 6rem;
+        padding-bottom: 3rem;
+    }
+    .recipe__ingredient {
+        column-gap: 1.5rem;
+    }
+    .recipe__image {
+        width: 80px;
+    }
+    .recipe__name {
+        font-size: $h3-font-size;
+    }
+    .recipe__description {
+        font-size: $normal-font-size;
+    }
+    .recipe__img {
+        width: 550px;
+    }
+}

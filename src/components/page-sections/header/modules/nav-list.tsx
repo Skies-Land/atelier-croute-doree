@@ -1,5 +1,5 @@
 // FEATURE
-import { ActiveLink } from "../../../features/active-link/active-link"
+import { ActiveLink } from "../../../features/active-link/active-link";
 
 export const NavList = () => {
     return (

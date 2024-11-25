@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useEffect, useMemo, useState } from "react";
 
 // TYPES
-import { ActiveLinkProps } from "../../../types/ActiveLinkType";
+import { ActiveLinkProps } from "../../../types/activeLinkType";
 
 // Gère l'état "actif" des liens de navigation en fonction de la route ou de la section visible.
 export const ActiveLink = ({ to, children }: ActiveLinkProps) => {

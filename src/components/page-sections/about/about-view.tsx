@@ -1,5 +1,5 @@
 // COMPONENTS
-import { Image } from "../../elements/image/Image";
+import { Image } from "../../elements/image/image";
 import { AboutData } from "./modules/about-data";
 
 // MEDIAS

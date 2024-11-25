@@ -1,6 +1,6 @@
 // COMPONENTS
-import { Button } from "../../../elements/button/Button"
-import { Image } from "../../../elements/image/Image"
+import { Button } from "../../../elements/button/button";
+import { Image } from "../../../elements/image/image";
 
 // MEDIAS
 import stickerCheese from "../../../../medias/svg/sticker-cheese.svg";

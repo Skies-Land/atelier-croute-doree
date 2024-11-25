@@ -3,8 +3,8 @@ import stickerPizza from "../../../../medias/svg/sticker-pizza.svg";
 import stickerLeaf from "../../../../medias/svg/sticker-leaf.svg";
 
 // COMPONENTS
-import { Button } from "../../../elements/button/Button";
-import { Image } from "../../../elements/image/Image";
+import { Button } from "../../../elements/button/button";
+import { Image } from "../../../elements/image/image";
 
 export const HomeData = () => (
     <div className="home__data">
