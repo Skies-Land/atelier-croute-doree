@@ -1,4 +1,4 @@
-export const Contact = () => {
+export const ContactView = () => {
     return (
         <section>
             <h2>Contact</h2>

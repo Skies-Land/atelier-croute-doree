@@ -1,4 +1,4 @@
-export const Products = () => {
+export const ProductsView = () => {
     return (
         <section>
             <h2>Products</h2>

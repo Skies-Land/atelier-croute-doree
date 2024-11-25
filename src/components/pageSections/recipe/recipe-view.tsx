@@ -1,4 +1,4 @@
-export const Recipe = () => {
+export const RecipeView = () => {
     return (
         <section>
             <h2>Recipe</h2>

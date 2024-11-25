@@ -9,19 +9,22 @@ import { RiApps2AddFill, RiCloseLine } from "react-icons/ri";
 
 // COMPONENT
 import { Image } from "../../elements/image/Image";
-import { NavList } from "./modules/NavList";
+import { NavList } from "./modules/nav-list";
 
 // HOOK
 import { useMenuToggle } from "../../../hook/useMenuToggle";
 
-export const Header = () => {
+// FEATURE
+import { ShadowHeader } from "../../features/shadow-header/shadow-header";
+
+export const HeaderView = () => {
     // Hook pour gérer l'ouverture, la fermeture et la navigation du menu.
     const { navMenuRef, navToggleRef, navCloseRef } = useMenuToggle();
 
     return (
-        <header className="header" id="header">
+        <ShadowHeader className="header" id="header">
             <nav className="nav containner">
-                <Link to="/#" aria-label="Logo du site" className="nav__logo">
+                <Link to="/" aria-label="Logo du site" className="nav__logo">
                     <Image src={logoPizza} alt="logo du site" />
                     Atelier Croûte Dorée
                 </Link>
@@ -41,6 +44,6 @@ export const Header = () => {
                     <RiApps2AddFill />
                 </div>
             </nav>
-        </header>
+        </ShadowHeader>
     );
 };

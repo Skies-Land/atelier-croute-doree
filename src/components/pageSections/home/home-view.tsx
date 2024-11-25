@@ -1,8 +1,9 @@
 // COMPONENTS
-import { HomeData } from "./modules/HomeData";
-import { HomeImages } from "./modules/HomeImages";
+import { HomeData } from "./modules/home-data"
+import { HomeImages } from "./modules/home-images"
 
-export const Home = () => {
+
+export const HomeView = () => {
     return (
         <section className="home section" id="home">
             <div className="home__container container grid">

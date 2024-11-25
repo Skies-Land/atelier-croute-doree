@@ -1,2 +1,69 @@
 /*=============== VARIABLES ===============*/
 @import "../../../scss/variables.scss";
+
+/*=============== ABOUT ===============*/
+.about {
+  background-color: $container-color;
+  &__container {
+    row-gap: 2rem;
+    padding-bottom: 2rem;
+  }
+  &__data {
+    position: relative;
+    text-align: center;
+  }
+  &__data .section__title {
+    margin-bottom: 1rem;
+  }
+  &__description {
+    margin-bottom: 2rem;
+  }
+  &__sticker {
+    width: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 2rem;
+  }
+  &__img {
+    width: 320px;
+    justify-self: center;
+    filter: $shadow-big-img;
+  }
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (min-width: 576px) {
+  .about__container {
+    grid-template-columns: 380px;
+    justify-content: center;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1150px) {
+  .about__container {
+    grid-template-columns: 450px 440px;
+    align-items: center;
+    column-gap: 6rem;
+  }
+  .about__img {
+    order: -1;
+    width: 450px;
+  }
+  .about__data {
+    text-align: initial;
+  }
+  .about__data .scetion__title {
+    margin-bottom: 1.5rem;
+    text-align: initial;
+  }
+  .about__description {
+    margin-bottom: 3.5rem;
+  }
+  .about__sticker {
+    width: 50px;
+    right: 6rem;
+    bottom: 4rem;
+  }
+}

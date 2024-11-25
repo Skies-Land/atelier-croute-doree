@@ -84,7 +84,7 @@ img {
 
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
-@media screen and (max_width: 320px) {
+@media screen and (max-width: 320px) {
   .container {
     margin-inline: 1rem;
   }
@@ -100,6 +100,7 @@ img {
     padding-block: 7rem 2rem;
     &__title {
       margin-bottom: 4rem;
+      font-size: $biggest-font-size;
     }
   }
 }

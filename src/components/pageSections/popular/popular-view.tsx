@@ -1,4 +1,4 @@
-export const Popular = () => {
+export const PopularView = () => {
     return (
         <section>
             <h2>Popular</h2>

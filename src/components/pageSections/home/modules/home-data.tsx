@@ -18,7 +18,7 @@ export const HomeData = () => (
             mémorables, passez votre commande dès maintenant.
         </p>
 
-        <Button to="/#products" className="button">
+        <Button to="#products" className="button">
             Commander maintenant
         </Button>
 

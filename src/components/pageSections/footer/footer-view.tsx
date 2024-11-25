@@ -1,4 +1,4 @@
-export const Footer = () => {
+export const FooterView = () => {
     return (
         <section>
         <h2>Footer</h2>
