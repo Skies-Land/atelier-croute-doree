@@ -9,7 +9,7 @@ import { Image } from "../../../elements/image/Image";
 export const HomeData = () => (
     <div className="home__data">
         <h1 className="home__title">
-            Pizzas croustillantes et <br /> délicieuses
+            Pizzas croustillantes <br /> et délicieuses
         </h1>
 
         <p className="home__description">
