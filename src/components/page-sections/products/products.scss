@@ -1,2 +1,110 @@
 /*=============== VARIABLES ===============*/
 @import "../../../scss/variables.scss";
+
+/*=============== PRODUCTS ===============*/
+.products__container {
+    padding-top: 3.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem 1.5rem;
+}
+
+.products__card {
+    position: relative;
+    background-color: $container-color;
+    padding: 5rem .75rem 1.25rem .75rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 24px hsla(353, 100%, 8%, .1);
+}
+
+.products__img {
+    width: 120px;
+    position: absolute;
+    top: -3.5rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    filter: $shadow-small-img;
+    transition: transform .4s;
+}
+
+.products__name {
+    font-size: $h3-font-size;
+    margin-bottom: .5rem;
+}
+
+.products__price {
+    font-family: $second-font;
+    font-size: $h1-font-size;
+    line-height: 120%;
+    color: $first-color;
+}
+
+.products__button {
+    position: absolute;
+    right: .75rem;
+    bottom: 1.25rem;
+    background-color: $first-color;
+    color: $white-color;
+    padding: 4px;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    display: inline-flex;
+    box-shadow: 0 4px 16px hsla(353, 100%, 40%, .4);
+    cursor: pointer;
+    transition: background-color .4s;
+}
+
+.products__button:hover {
+    background-color: $first-color-alt;
+}
+
+.products__card:hover .products__img {
+    transform: translateY(-.5rem);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+    .products__container {
+        grid-template-columns: 150px;
+        justify-content: center;
+    }
+}
+
+/* For medium devices */
+@media screen and (min-width: 576px) {
+    .products__container {
+        grid-template-columns: repeat(2, 160px);
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .products__container {
+        grid-template-columns: repeat(3, 160px);
+    }
+}
+
+/* For large devices */
+@media screen and (min-width: 1150px) {
+    .products__container {
+        grid-template-columns: repeat(3, 250px);
+        gap: 7.5rem 4rem;
+    }
+    .products__card {
+        padding: 10rem 1.5rem 1.5rem;
+        border-radius: 2rem;
+    }
+    .products__img {
+        width: 200px;
+        top: -4rem;
+    }
+    .products__name {
+        font-size: $h2-font-size;
+    }
+    .products__button {
+        right: 1.5rem;
+        bottom: 1.5rem;
+        padding: 6px;
+    }
+}
