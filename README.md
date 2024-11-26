@@ -28,6 +28,7 @@ Dans un second temps :
 - **[SASS](https://sass-lang.com/)**
 - **[React-router](https://reactrouter.com/)**
 - **[Remixicon - *utilisation avec React*](https://github.com/Remix-Design/RemixIcon?tab=readme-ov-file#react)**
+- **[React-Toastify](https://www.npmjs.com/package/react-toastify)**
 
 ##
 ![preview](https://github.com/user-attachments/assets/88d26278-7157-499c-bdda-b44640b82a8e)
