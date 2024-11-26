@@ -10,27 +10,27 @@
     }
     
     .recipe__image {
-        width: 60px;
+        width: 80px;
         filter: $shadow-small-img;
     }
     
     .recipe__name {
-        font-size: $normal-font-size;
+        font-size: $normal-font-size +.5;
         margin-bottom: .25rem;
     }
     
     .recipe__description {
-        font-size: $small-font-size;
+        font-size: $small-font-size +.15;
     }
     
     .recipe__ingredient {
         display: flex;
         align-items: center;
-        column-gap: .75rem;
+        column-gap: 1.2rem;
     }
     
     .recipe__img {
-        width: 320px;
+        width: 620px;
         justify-self: center;
         filter: $shadow-big-img;
     }
