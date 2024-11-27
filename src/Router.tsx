@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 // PAGES
 import { HomePage } from './pages/HomePage'
+import { ScrollUp } from './components/features/scroll-up/scroll-up'
 
 export default function Router() {
   return (
@@ -10,6 +11,7 @@ export default function Router() {
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
+      <ScrollUp />
     </BrowserRouter>
   )
 }
