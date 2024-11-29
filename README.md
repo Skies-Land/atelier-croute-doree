@@ -27,8 +27,9 @@ Dans un second temps :
 - **[Vite.js](https://vite.dev/)**
 - **[SASS](https://sass-lang.com/)**
 - **[React-router](https://reactrouter.com/)**
-- **[Remixicon - *utilisation avec React*](https://github.com/Remix-Design/RemixIcon?tab=readme-ov-file#react)**
+- **[Remixicon - *"utilisation avec React"*](https://github.com/Remix-Design/RemixIcon?tab=readme-ov-file#react)**
 - **[React-Toastify](https://www.npmjs.com/package/react-toastify)**
+- **[Swiper - *"utilisation avec React"*](https://swiperjs.com/react)**
 
 ##
 ![preview](https://github.com/user-attachments/assets/88d26278-7157-499c-bdda-b44640b82a8e)

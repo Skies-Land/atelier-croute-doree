@@ -48,10 +48,23 @@ export const ActiveLink = ({ to, children }: ActiveLinkProps) => {
         return activeSection && to.includes(activeSection);
     }, [activeSection, to]);
 
+    // Gère le clic sur le lien pour défiler vers la section correspondante
+    const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+        e.preventDefault();
+        const targetSection = document.querySelector(to) as HTMLElement;
+        if (targetSection) {
+            window.scrollTo({
+                top: targetSection.offsetTop - 58,
+                behavior: 'smooth',
+            });
+        }
+    };
+
     return (
         <Link
             to={to}
             className={`nav__link ${isActive || isSectionActive ? 'active-link' : ''}`}
+            onClick={handleClick}
         >
             {children}
         </Link>

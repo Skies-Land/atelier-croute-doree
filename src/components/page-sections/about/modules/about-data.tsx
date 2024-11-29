@@ -3,7 +3,7 @@ import { Button } from "../../../elements/button/button";
 import { Image } from "../../../elements/image/image";
 
 // MEDIAS
-import stickerCheese from "../../../../medias/svg/sticker-cheese.svg";
+import StickerCheese from "../../../../medias/svg/sticker-cheese.svg";
 
 export const AboutData = () => {
     return (
@@ -17,11 +17,11 @@ export const AboutData = () => {
                 lorsque nous avons ouvert notre première pizzeria à Paris, France.
             </p>
 
-            <Button to="#popular" aria-label="Les meilleures pizzas" className="button">
+            <Button to="#popular" aria-label="Les meilleures pizzas">
                 Les meilleures pizzas
             </Button>
 
-            <Image src={stickerCheese} alt="image d'un morceau de fromage" className="about__sticker" />
+            <Image src={StickerCheese} alt="image d'un morceau de fromage" className="about__sticker" />
         </div>
-    )
-}
+    );
+};

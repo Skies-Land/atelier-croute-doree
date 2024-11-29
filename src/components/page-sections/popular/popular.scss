@@ -1,2 +1,107 @@
 /*=============== VARIABLES ===============*/
 @import "../../../scss/variables.scss";
+
+/*=============== POPULAR ===============*/
+.popular__container {
+    grid-template-columns: 100%;
+    row-gap: 3rem;
+    padding-bottom: 2rem;
+}
+
+.popular__data .section__title {
+    margin-bottom: 1rem;
+}
+
+.popular__description {
+    text-align: center;
+}
+
+.popular__swiper {
+    position: relative;
+}
+
+.popular__dish {
+    width: 220px;
+    filter: $shadow-big-img;
+    position: absolute;
+    inset: 0;
+    top: -.85rem;
+    margin-inline: auto;
+}
+
+.popular__card,
+.popular__img {
+    width: 200px;
+}
+
+.popular__img {
+    transform: scale(.8) rotate(-90deg);
+    transition: transform .4s;
+}
+
+.popular__title {
+    font-size: $h3-font-size;
+    color: $first-color;
+    margin-top: 2rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .4s;
+}
+
+/* Swiper class */
+.swiper {
+    margin-inline: initial;
+    overflow: visible;
+}
+
+:is(.swiper-slide-active, .swiper-slide-duplicate-active) .popular__img {
+    transform: scale(1) rotate(0);
+}
+
+:is(.swiper-slide-active, .swiper-slide-duplicate-active) .popular__title {
+    opacity: 1;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (min-width: 576px) {
+    .popular__container {
+        grid-template-columns: 380px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .popular__swiper {
+        width: 800px;
+        overflow-x: clip;
+        justify-self: center;
+    }
+}
+
+/* For large devices */
+@media screen and (min-width: 1150px) {
+    .popular__container {
+        grid-template-columns: 470px;
+        row-gap: 5rem;
+        padding-bottom: 3rem;
+    }
+    .popular__data .section__title {
+        margin-bottom: 1.5rem;
+    }
+    .popular__swiper {
+        width: 1000px;
+    }
+    .popular__card,
+    .popular__img {
+        width: 350px;
+    }
+    .popular__dish {
+        width: 390px;
+        top: -1.5rem;
+    }
+    .popular__title {
+        margin-top: 3rem;
+        font-size: $h2-font-size;
+    }
+}
