@@ -1,19 +1,30 @@
+
 # 🍕 ATELIER CROÛTE DORÉE
-Site vitrine d'une enseigne de pizzeria fictive.
 
-## ▶️ DESCRIPTION
-**📄 Présentation**
-- Cours suivie pour la réalisation de ce projet **[Bedimcode](https://www.youtube.com/@Bedimcode)**.
-- Développé dans un premier temps avec **HTML**, **CSS** et **JavaScript** qui constitue ma maquette.
-- Puis dans un second temps, adaptation avec **React**, **TypeScript** & **SASS** et dépoiement du projet sur **Firebase**
-- Contient des animations lors du défilement.
-- Défilement fluide dans chaque section.
-- Développé d'abord avec la méthodologie Mobile First, puis pour les ordinateurs de bureau.
-- Compatible avec tous les appareils mobiles et doté d'une interface utilisateur belle et agréable.
+## 📜 Table des matières
+- **[📖 Description](#-description)**
+- **[🔗 Technologies](#-technologies)**
+- **[📂 Architecture du projet](#-architecture-du-projet)**
+- **[🚀 Installation et exécution](#-installation-et-exécution)**
+- **[📌 Améliorations possibles](#-améliorations-possibles)**
+- **[👤 Skies-Land - Jonathan Araldi](#-skies-land---jonathan-araldi)**
+- **[📷 Image de preview](#-image-de-preview)**
+---
 
-**🔗 Resources**
-#####
-Dans un premier temps :
+## 📖 Description
+Projet développé en suivant un cours de **[Bedimcode](https://www.youtube.com/@Bedimcode)**.
+
+- Site vitrine d'une enseigne de pizzeria fictive.
+- Projet initialement développé en **HTML**, **CSS** et **JavaScript**.
+- Adaptation avec **React**, **TypeScript** & **SASS**.
+- Déploiement du projet sur **Firebase**.
+- Animations lors du défilement et transitions fluides.
+- Approche Mobile First, optimisée pour les bureaux.
+- Interface utilisateur réactive et moderne.
+### 🔎 Accès au projet : **[Atelier Croûte Dorée](https://atelier-croute-doree-2db48.web.app/)**
+
+## 🔗 Technologies
+#### Phase 1 :
 - **[CDN Icons - *"Remixicon"*](https://cdnjs.com/libraries/remixicon)**
 - **[Icons](https://remixicon.com/)**
 - **[Google Fonts - *"Carter One"*](https://fonts.google.com/specimen/Carter+One?query=Carter)**
@@ -22,8 +33,8 @@ Dans un premier temps :
 - **[Swiperjs](https://swiperjs.com/get-started)**
 - **[ScrollReveal](https://scrollrevealjs.org/)**
 - **[Original Images](https://fr.freepik.com/)**
-#####
-Dans un second temps :
+
+#### Phase 2 :
 - **[Vite.js](https://vite.dev/)**
 - **[SASS](https://sass-lang.com/)**
 - **[React-router](https://reactrouter.com/)**
@@ -32,7 +43,7 @@ Dans un second temps :
 - **[Swiper - *"utilisation avec React"*](https://swiperjs.com/react)**
 - **[Firebase](https://firebase.google.com/)**
 
-# **📂 Architecture**
+## 📂 Architecture du projet
 ```
 src/
 │   App.tsx                     # Composant principal de l'application
@@ -63,8 +74,33 @@ src/
 └── types/                	# Types TypeScript
 
 ```
+## 🚀 Installation et exécution
+1 - Cloner le projet
 
-## 🔎 Accès au projet - **[Atelier Croûte Dorée](https://atelier-croute-doree-2db48.web.app/)**
+```bash
+  git clone https://github.com/Skies-Land/atelier-croute-doree.git
+```
+2 - Installer les dépendances
 
+```bash
+  npm install
+```
+3 - Lancer l'application
+
+```bash
+  npm run dev
+```
+
+## 📌 Améliorations possibles
+- ✅ Ajouter des tests unitaires avec Jest & React Testing Library
+- ✅ Ajouter une API pour récupérer les produits dynamiquement
+- ✅ Authentification utilisateur : Intégration de Firebase Auth pour permettre la connexion et l'inscription des clients.
+- ✅ Ajout d'un panier dynamique : Permettre aux utilisateurs d'ajouter des pizzas au panier avec un affichage en temps réel.
+- ✅ Gestion des commandes : Mise en place d'un système de gestion des commandes avec suivi en temps réel.
+
+## 👤 Skies-Land - Jonathan Araldi
+
+- **[Portfolio](https://portfolio-jonathan-araldi.netlify.app/)** | **[LinkedIn](https://www.linkedin.com/in/jonathan-araldi/)** | **[GitHub](https://github.com/Skies-Land)**
+
+## 📷 Image de preview
 ![preview](https://github.com/user-attachments/assets/88d26278-7157-499c-bdda-b44640b82a8e)
-
