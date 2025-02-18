@@ -32,10 +32,6 @@ Dans un second temps :
 - **[Swiper - *"utilisation avec React"*](https://swiperjs.com/react)**
 - **[Netlify - *"dépoiement du projet à partir du repo GitHub"*](https://www.netlify.com/)**
 
-## 🔎 Accès au projet - **[Atelier Croûte Dorée](https://atelier-croute-doree-2db48.web.app/)**
-
-![preview](https://github.com/user-attachments/assets/88d26278-7157-499c-bdda-b44640b82a8e)
-
 # **📂 Architecture**
 ```
 src/
@@ -67,4 +63,8 @@ src/
 └── types/                	# Types TypeScript
 
 ```
+
+## 🔎 Accès au projet - **[Atelier Croûte Dorée](https://atelier-croute-doree-2db48.web.app/)**
+
+![preview](https://github.com/user-attachments/assets/88d26278-7157-499c-bdda-b44640b82a8e)
 
