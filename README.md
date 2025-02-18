@@ -5,7 +5,7 @@ Site vitrine d'une enseigne de pizzeria fictive.
 **📄 Présentation**
 - Cours suivie pour la réalisation de ce projet **[Bedimcode](https://www.youtube.com/@Bedimcode)**.
 - Développé dans un premier temps avec **HTML**, **CSS** et **JavaScript** qui constitue ma maquette.
-- Puis dans un second temps, adaptation avec **React**, **TypeScript** & **SASS** et dépoiement du projet sur **Netlify**
+- Puis dans un second temps, adaptation avec **React**, **TypeScript** & **SASS** et dépoiement du projet sur **Firebase**
 - Contient des animations lors du défilement.
 - Défilement fluide dans chaque section.
 - Développé d'abord avec la méthodologie Mobile First, puis pour les ordinateurs de bureau.
@@ -30,7 +30,7 @@ Dans un second temps :
 - **[Remixicon - *"utilisation avec React"*](https://github.com/Remix-Design/RemixIcon?tab=readme-ov-file#react)**
 - **[React-Toastify](https://www.npmjs.com/package/react-toastify)**
 - **[Swiper - *"utilisation avec React"*](https://swiperjs.com/react)**
-- **[Netlify - *"dépoiement du projet à partir du repo GitHub"*](https://www.netlify.com/)**
+- **[Firebase](https://firebase.google.com/)**
 
 # **📂 Architecture**
 ```
